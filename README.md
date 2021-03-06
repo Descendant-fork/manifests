@@ -1,6 +1,6 @@
 To initialize your local repository, use this command:
 
-	repo init -u https://github.com/descendant-xi/manifests.git -b eleven-staging
+	repo init -u https://github.com/Descendant-fork/manifests.git -b eleven-staging
 
  Then to sync up:
 

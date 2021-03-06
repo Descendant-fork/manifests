@@ -18,6 +18,10 @@
           fetch="https://github.com/descendant-xi"
           revision="refs/heads/eleven-staging" />
 
+  <remote name="fork"
+          fetch="https://github.com/Descendant-fork"
+          revision="refs/heads/eleven-staging" />
+
   <remote name="devices"
           fetch="https://github.com/Descendant-Devices"
           revision="refs/heads/eleven" />
