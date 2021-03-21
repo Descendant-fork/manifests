@@ -4,6 +4,7 @@
 <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="lineage"/>
 <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="lineage"/>
 <project name="android_external_ntfs-3g"      path="external/ntfs-3g"      remote="lineage" />
+<project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab-self-hosted" />
 
   <!-- hardware repos -->
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="arrow" >
@@ -67,6 +68,8 @@
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" remote="lineage" />
   <project path="hardware/ril" name="android_hardware_ril" remote="lineage" />
   
+<!--  Packages  -->
+<project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixel" />
 
 <!--  Prebuilts  -->
 <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="lineage"/>
