@@ -3,7 +3,8 @@
   <include name="extras/remove.xml" />
 
   <!-- Build repos -->
-  <project name="bionic"          path="bionic"           remote="potato" />
+  <project name="art"             path="art"              remote="fork" groups="pdk" />
+  <project name="bionic"          path="bionic"           remote="fork" />
   <project name="build_blueprint" path="build/blueprint"  remote="potato" groups="pdk,tradefed" />
   <project name="build_make"      path="build/make"       remote="fork" groups="pdk" >
     <copyfile src="core/root.mk"         dest="Makefile" />
@@ -15,7 +16,7 @@
     <linkfile src="tools"                dest="build/tools" />
   </project>
   <project name="bootable_recovery" path="bootable/recovery" remote="potato" revision="dumaloo-release" />
-  <project name="build_soong"       path="build/soong"       remote="potato" groups="pdk,tradefed" >
+  <project name="build_soong"       path="build/soong"       remote="fork" groups="pdk,tradefed" >
     <linkfile src="root.bp"        dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
