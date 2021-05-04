@@ -63,7 +63,7 @@
   <project name="external_libcxx"       path="external/libcxx"       remote="potato" />
 
   <!-- Prebuilt repos -->
-  <project name="prebuilts_abi-dumps_vndk" path="prebuilts/abi-dumps/vndk" remote="potato" clone-depth="1" />
+  <project name="prebuilts_abi-dumps_vndk" path="prebuilts/abi-dumps/vndk" remote="fork" clone-depth="1" />
 
   <!-- System repos -->
   <project name="system_netd"            path="system/netd"            remote="potato" />
